@@ -1,0 +1,60 @@
+.fonts-h{
+    padding-top:50px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+
+.fonts-p{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.857;
+  text-align: center;
+  max-width:650px;
+  margin:0 auto;
+    color: #212121;
+}
+
+.fonts-link{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 42px;
+    letter-spacing: 0.857;
+  
+    color: #8e9775;
+}
+
+.link-item{
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+
+.links-list{
+    padding-left:30px;
+    max-width:450px;
+}
+
+.fonts-page{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.857;
+  text-align: center;
+  max-width:650px;
+  margin:0 auto;
+    color: #212121;
+}
