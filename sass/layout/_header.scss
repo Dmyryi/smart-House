@@ -1,0 +1,26 @@
+.header .container {
+    display: flex;
+    align-items: center;
+   }
+
+   .header {
+    margin-top: 24px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   }
+   
+   .navigation {
+    display: flex;
+    align-items: center;
+   }
+
+   .navigation-list{
+       display:flex;
+   }
+
+   .navigation-item{
+       padding-left:25px;
+   }
