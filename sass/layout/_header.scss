@@ -2,4 +2,30 @@
     display: flex;
     align-items: center;
    }
+
+   .header {
+       background-image: none;
+    margin-top: 24px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin:  0 auto;
+   }
    
+   .navigation {
+    display: flex;
+    align-items: center;
+   }
+
+   .navigation-list{
+       display:flex;
+       margin-top:24px;
+       margin:0 auto;
+       margin-left:150px;
+   }
+
+   .navigation-item{
+       padding-left:25px;
+   }

@@ -40,6 +40,24 @@ img {
   border: 1px solid #ececec;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .footer-list {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +72,7 @@ img {
 }
 
 .footer-svg {
+  padding-left: 40px;
   padding-top: 30px;
 }
 
@@ -64,7 +83,7 @@ img {
 
 .fonts-h {
   padding-top: 50px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -75,7 +94,7 @@ img {
 }
 
 .fonts-p {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 26px;
@@ -88,7 +107,7 @@ img {
 }
 
 .fonts-link {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 16px;
@@ -109,15 +128,30 @@ img {
 }
 
 .fonts-page {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: normal;
   font-size: 26px;
   line-height: 42px;
   letter-spacing: 0.857;
-  text-align: center;
-  max-width: 650px;
+  text-align: right;
   margin: 0 auto;
+  margin-left: auto;
+  color: #000000;
+  margin-left: 800px;
+  padding-right: 30px;
+}
+
+.fonts-ha {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  padding-right: 90px;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -130,15 +164,17 @@ img {
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 25px;
 }
 
 .img-technology {
   width: 200px;
   height: 200px;
+  padding-right: 25px;
 }
 
 .pro-nas {
-  background-image: url("/images/background-images/09b87d8495c8cf32b64735c816312dfe_XL.jpg.crdownload");
+  background-image: url("/images/background-images/photo_2021-06-23_11-56-42_auto_x2_colored_light_ai.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -148,5 +184,37 @@ img {
   height: 60px;
   margin: 0 auto;
   margin-left: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-image: none;
+  margin-top: 24px;
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  margin-top: 24px;
+  margin: 0 auto;
+  margin-left: 150px;
+}
+
+.navigation-item {
+  padding-left: 25px;
 }
 /*# sourceMappingURL=main .css.map */
