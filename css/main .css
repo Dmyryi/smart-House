@@ -37,7 +37,6 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #ececec;
 }
 
 @media screen and (min-width: 480px) {
@@ -155,6 +154,38 @@ img {
   color: #212121;
 }
 
+.fonts-poslygi {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  padding-bottom: 100px;
+  color: #212121;
+}
+
+.fonts-h-poslygi {
+  margin-left: 115px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.fonts-head {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 .technology-list {
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +208,29 @@ img {
   background-image: url("/images/background-images/photo_2021-06-23_11-56-42_auto_x2_colored_light_ai.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.zakaz {
+  border-radius: 25px;
+  border-color: #CD113B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #52006A;
+  margin-left: 350px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ssilka {
+  color: #FFA900;
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.857;
+  margin: 0 auto;
 }
 
 .svghref {
@@ -216,5 +270,47 @@ img {
 
 .navigation-item {
   padding-left: 25px;
+}
+
+.money-coins {
+  display: flex;
+}
+
+.money-list {
+  padding-right: 100px;
+  border-color: #000;
+  padding-bottom: 25px;
+  border: 2px solid #a008b4;
+}
+
+.money-button {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  color: #78DEC7;
+  margin-left: 150px;
+  border-color: #000;
+  margin-top: 150px;
+  border-radius: 25px;
+  background-color: #a008b4;
+}
+
+.money-button1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #78DEC7;
+  margin-left: 80px;
+  border-color: #000;
+  margin-top: 150px;
+  border-radius: 25px;
+  background-color: #a008b4;
+}
+
+.money-item {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=main .css.map */

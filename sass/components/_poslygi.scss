@@ -1,0 +1,41 @@
+.money-coins{
+    display:flex;
+}
+
+.money-list{
+    padding-right: 100px;
+    border-color: #000 ;
+    padding-bottom:25px;
+    border:2px solid #a008b4;
+}
+
+.money-button{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    color:#78DEC7;
+   margin-left: 150px;
+    border-color: #000 ;
+    margin-top:150px;
+    border-radius: 25px;
+    background-color: #a008b4;
+}
+
+.money-button1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right:25px;
+    color:#78DEC7;
+    margin-left: 80px;
+     border-color: #000 ;
+     margin-top:150px;
+     border-radius: 25px;
+     background-color: #a008b4;
+ }
+
+.money-item{
+    flex-wrap:wrap;
+    display: flex;
+    margin-top:50px;
+}
